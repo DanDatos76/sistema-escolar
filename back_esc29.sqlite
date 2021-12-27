@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+CREATE TABLE student(legajo INTEGER PRIMARY KEY, grado INTEGER,division TEXT, nombre TEXT,apellido TEXT,celular INTEGER,dni INTEGER,nacionalidad TEXT,domicilio TEXT);
+COMMIT;
